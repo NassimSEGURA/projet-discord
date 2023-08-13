@@ -1,0 +1,42 @@
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  overflow-x: hidden;
+  font-family: "Open Sans", sans-serif;
+}
+.primaryBg {
+  background-color: #404eed;
+}
+.secondaryBg {
+  background-color: #7289da;
+}
+.primaryText {
+  color: #404eed;
+}
+.footerBg {
+  background-color: #23272a;
+}
+.buttonBrand {
+  background-color: #404eed;
+  color: white;
+}
+.logoWrapper {
+  padding: 1.5rem 1.2rem;
+  width: 35%;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
