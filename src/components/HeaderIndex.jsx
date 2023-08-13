@@ -62,6 +62,7 @@ flex-direction:column;
     position: relative;
     margin-left:auto;
     margin-right:auto;
+    width:50%; 
   }
   .titleWrapper {
     width: 100%;
