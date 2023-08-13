@@ -42,6 +42,11 @@ const Div = styled.div`
   margin-top: 4rem;
   margin-bottom: 7rem;
   padding: 0 1.5rem;
+  video {
+    width: 100%;
+    height: 150%;
+    object-fit: cover;
+  }
   .buttonFlex {
     display: flex;
     justify-content: center;
